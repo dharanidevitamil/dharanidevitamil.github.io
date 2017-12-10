@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="col-sm-9">
+        <div class="panel panel-default">
+            <div class="panel-body message">
+                <p class="text-center">New Message
+               &nbsp;
+               &nbsp;
+               &nbsp;
+               &nbsp;
+               &nbsp;
+                <span class="glyphicon glyphicon-minus"></span>
+                <span class="glyphicon glyphicon-resize-full"></span>
+                <span class="glyphicon glyphicon-remove"></span></p>
+		            <form class = "form-horizontal">
+			               <div class = "form-group ">
+				              <label class = "control-label " for = "email">From</label>
+					            <p class = "form-control-static">dharanidevitamil@gmail.com</p>
+			               </div>
+                     </form>
+                <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                        <label for="to" class="col-sm-1 control-label">To:</label>
+                        <div class="col-sm-10">
+                              <input type="email" class="form-control" id="to" placeholder="Type email" tabindex="-1">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="cc" class="col-sm-1 control-label">CC:</label>
+                        <div class="col-sm-10">
+                              <input type="email" class="form-control " id="cc" placeholder="Type email" tabindex="-1">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="bcc" class="col-sm-1 control-label">BCC:</label>
+                        <div class="col-sm-10">
+                              <input type="email" class="form-control" id="bcc" placeholder="Type email" tabindex="-1">
+                        </div>
+                    </div>
+                  
+                </form>
+                
+                        </div>
+                    </div>
+                    <br>    
+                    
+                    <div class="form-group">
+                        <textarea class="form-group" id="message" name="body" rows="10" cols="50" placeholder="Click here to reply"></textarea>
+                    </div>
+                    
+                    <div class="form-group">  
+
+                        <button type="submit" class="btn btn-success"><a href="#">Send</button></a>
+                        <button type="submit" class="btn btn-default"><a href="#">Draft</button></a>
+                        <button type="submit" class="btn btn-danger"><a href="#">Discard</button></a>
+                        <span class="glyphicon glyphicon-font"></span>
+                        <span class="glyphicon glyphicon-paperclip"></span>
+                        <span class="glyphicon glyphicon-picture"></span>
+                         &#9851;
+                         &#x263A;
+                        <span class="glyphicon glyphicon-trash"></span>
+                    </div>
+                </div>  
+            </div>  
+        </div>  
+    </div><!--/.col-->      
+    </body>
